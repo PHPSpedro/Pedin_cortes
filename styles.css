@@ -188,7 +188,8 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-.produtos-imagens img{
+
+.produtos-imagens img {
     height: 300px;
     width: 300px;
 }
@@ -624,10 +625,11 @@ footer {
 
     #button-banner {
         position: absolute;
-        font-size: 16px;
+        font-size: 8px;
         padding: 10px 20px;
-        top: 45%;
-
+        top: 320px;
+        left: 300px;
+        width: 100px;
     }
 
     /* Títulos ainda menores */
@@ -641,10 +643,12 @@ footer {
     #produtos-lista-kits {
         font-size: 18px;
     }
-      #localizacao-conteudo-celular {
+
+    #localizacao-conteudo-celular {
         display: flex;
     }
-      #localizacao-conteudo video {
+
+    #localizacao-conteudo video {
         width: 50%;
         height: 300px;
         border-radius: 20px;
@@ -671,25 +675,29 @@ footer {
     .form-agendamento h3 {
         font-size: 1.8rem;
     }
-    .form-agendamento p{
+
+    .form-agendamento p {
         font-size: 18px;
     }
+
     .form-agendamento a img {
-    width: 80px;
-    height: 50px;
-    margin-left: 10px;
-    bottom: 2px;
-}
-     footer {
+        width: 80px;
+        height: 50px;
+        margin-left: 10px;
+        bottom: 2px;
+    }
+
+    footer {
         height: 300px;
         flex-direction: column;
         text-align: center;
         min-height: auto;
         padding: 20px;
     }
-.contato-cel{
-    display: flex;
-    justify-content: left;
-}
-  
+
+    .contato-cel {
+        display: flex;
+        justify-content: left;
+    }
+
 }
