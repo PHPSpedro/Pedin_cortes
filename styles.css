@@ -663,6 +663,7 @@ footer {
 
     /* Formulários menores */
     .agendamento {
+        margin-left: 43px;
         max-width: 300px;
         padding: 1.5rem;
     }
@@ -670,4 +671,25 @@ footer {
     .form-agendamento h3 {
         font-size: 1.8rem;
     }
+    .form-agendamento p{
+        font-size: 18px;
+    }
+    .form-agendamento a img {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    bottom: 2px;
+}
+     footer {
+        height: 300px;
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+        padding: 20px;
+    }
+.contato-cel{
+    display: flex;
+    justify-content: left;
+}
+  
 }
