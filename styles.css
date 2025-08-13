@@ -32,6 +32,38 @@ header {
     z-index: 1;
 }
 
+aside {
+    position: fixed;
+    height: 400px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    top: 70px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f21;
+    z-index: 3;
+    display: none;
+}
+
+.header-buttons-cel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#mascara-invisivel{
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
 .logo {
     margin: 20px;
     width: 200px;

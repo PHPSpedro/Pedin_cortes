@@ -61,3 +61,24 @@ Meu telefone: ${telefone} — Essa data e horario está disponível?`;
     });
 
 });
+
+const botao = document.querySelector(".menu-icon")
+const aside = document.querySelector("#aside")
+const tirarAside = document.querySelector("#mascara-invisivel")
+const linkHeader =document.querySelectorAll(".button-header");
+
+function mostrarAside(){
+  aside.style.display = "flex"
+  tirarAside.style.visibility ="visible"
+}
+function tirarMascara(){
+  aside.style.display = "none"
+  tirarAside.style.visibility ="hidden"
+}
+botao.addEventListener("click",mostrarAside);
+tirarAside.addEventListener("click",tirarMascara);
+linkHeader.forEach(link => {
+  link.addEventListener("click", tirarMascara);
+});
+
+tirarAside.addEventListener("click", tirarMascara);
