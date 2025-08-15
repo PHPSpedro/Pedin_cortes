@@ -55,7 +55,8 @@ aside {
     justify-content: center;
     align-items: center;
 }
-#mascara-invisivel{
+
+#mascara-invisivel {
     visibility: hidden;
     height: 100vh;
     width: 100vw;
@@ -646,11 +647,15 @@ footer {
         font-size: 18px;
     }
 
-    
+
 
     #localizacao-conteudo video {
-        width: 100%;
-        height: 400px;
+        width: 500px;
+        /* largura desejada */
+        height: 300px;
+        /* altura desejada */
+        object-fit: cover;
+        /* corta o excesso mantendo o enquadramento */
         border-radius: 20px;
     }
 
